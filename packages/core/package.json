@@ -21,7 +21,7 @@
     "url": "git+https://github.com/HelloGGX/ggx-cli.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"run tests from root\""
   },
   "bugs": {
     "url": "https://github.com/HelloGGX/ggx-cli/issues"
