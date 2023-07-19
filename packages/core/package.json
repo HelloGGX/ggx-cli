@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "bin": {
+    "ggx": "./bin/index.js"
+  },
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
@@ -27,6 +30,6 @@
     "url": "https://github.com/HelloGGX/ggx-cli/issues"
   },
   "dependencies": {
-    "@ggx-cli/utils": "^1.0.0"
+    "@ggx-cli/utils": "file:../utils"
   }
 }
