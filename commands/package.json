@@ -1,11 +1,11 @@
 {
-  "name": "@ggx-cli/core",
+  "name": "commands",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "郭高翔 <guogaoxiang@travelsky.com.cn>",
   "homepage": "https://github.com/HelloGGX/ggx-cli#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/commands.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "bin": {
-    "ggx": "./bin/index.js"
-  },
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
@@ -28,8 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/HelloGGX/ggx-cli/issues"
-  },
-  "dependencies": {
-    "@ggx-cli/utils": "file:../utils"
   }
 }

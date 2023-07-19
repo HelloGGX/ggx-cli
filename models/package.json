@@ -1,11 +1,11 @@
 {
-  "name": "@ggx-cli/utils",
+  "name": "models",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "郭高翔 <guogaoxiang@travelsky.com.cn>",
   "homepage": "https://github.com/HelloGGX/ggx-cli#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/models.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
