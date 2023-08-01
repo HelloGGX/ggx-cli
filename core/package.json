@@ -30,6 +30,18 @@
     "url": "https://github.com/HelloGGX/ggx-cli/issues"
   },
   "dependencies": {
-    "@ggx-cli/utils": "file:../utils"
+    "@ggx-cli/utils": "file:../utils",
+    "@ggx-cli/init": "file:../commands/init",
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "ggx-cli": "file:..",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.8",
+    "npmlog": "^7.0.1",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.5.4",
+    "user-home": "^3.0.0"
   }
 }
